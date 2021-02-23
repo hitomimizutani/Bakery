@@ -1,0 +1,31 @@
+.main-box{
+  margin-bottom:10px;
+  
+}
+.main-flex{
+  border-bottom: 5px solid rgb(135,99,38);
+  display:flex;
+}
+.main-img img{
+  width:220px;
+}
+.main-text{
+  border:none;
+  height:300px;
+  background-color: #fff;
+  margin-bottom:0;
+}
+.main-text h5{
+  /* height:216px; */
+  padding:10px 5px;
+}
+.main-text p{
+  margin-top:20px;
+}
+.main-snpu-height{
+  min-height: 325px;
+}
+.main-snpu img{
+  margin:10px;
+  float: left;
+}
