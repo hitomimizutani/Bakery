@@ -1,0 +1,33 @@
+.main-top-text{
+  width:267px;
+  height:40px;
+}
+.main-top-text h2,.main-top-text h3{
+  font-size: 10px;
+}
+.main-snpu img{
+  width:85%;
+}
+td{
+  line-height:1.1;
+}
+.main-snpu-wrapper .main-snpu {
+  height: 350px;
+}
+.sec04-wrapper {
+  display:block;
+}
+.sec04-grid{
+  width:100%;
+  margin-bottom: 12px;
+}
+.sec04-list li{
+  height:50px;
+}
+
+.sec04-grid:nth-of-type(n+2){
+  margin-left: 0;
+}
+.sec04-grid:nth-of-type(3){
+  margin-bottom:30px;
+}
