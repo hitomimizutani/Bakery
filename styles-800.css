@@ -1,0 +1,179 @@
+.container{
+  width:938px;
+  margin:0 auto;
+  margin-top:20px;
+  
+}
+.log-text{
+  width:314px;
+  height:130px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding-left: 17px;
+}
+.log-text h1{
+  padding:0;
+  font-size:20px;
+}
+.flex-800{
+  display:flex;
+}
+.nav{
+  display:none;
+}
+.nav-800{
+  height: 130px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width:623px;
+}
+.nav-800 li:first-child{
+  display:none;
+}
+.nav-800 ul{
+  display:flex;
+  text-align: center;
+  width: 100%;
+  height:130px;
+}
+.nav-800 li{
+  width: 100%;
+}
+.nav-800 li:hover{
+  background-color: #866326;
+}
+.nav-800 li:not(:hover){
+  color:#fff;
+}
+
+.nav-800 li:nth-of-type(2){
+  background-color: #866326;
+}
+.nav-800 li + li + li{
+  border-left:.5px solid #eee; 
+}
+.nav-800 li a{
+  color:#866326;
+  text-decoration:none;
+  font-size:13px;
+  display:block;
+  padding:50px 5px;
+  display: block;
+}
+.nav-800 li a:hover{
+  color:#fff;
+}
+.nav-800 li span{
+  margin-top:10px;
+  display:block;
+}
+.main-top{
+  box-shadow: 0 0 1px grey
+}
+.main-top-text{
+  bottom:2px;
+}
+.main-img-wrapper{
+  display:flex;
+  padding:20px 0 0;
+}
+.main-box{
+  width:220px;
+  padding:0;
+}
+.main-box:not(:last-child){
+  margin-right:18px;
+}
+.main-flex{
+  flex-direction:column;
+}
+.main-img img{
+  width:100%;
+}
+.main-text{
+  height: 128px;
+}
+.main-text p{
+  margin-top: 3px;
+}
+.main-snpu{
+  margin:10px 0 40px;
+}
+footer .log-text {
+  width:100%;
+  height: 100px;
+  position: relative;
+  margin-bottom:20px;
+}
+footer .log-text a{
+  position:absolute;
+  top:50%;
+  left:20px;
+  transform: translateY(-50%);
+}
+
+footer .tel{
+  position:absolute;
+  top:30%;
+  left:50%;
+  transform: translate(-50%,0%);
+}
+footer .log-text p:nth-of-type(1){
+  margin-top:0;
+  padding: 0;
+}
+footer .Reception{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,0%);
+}
+footer .log-text .hp{
+  position: absolute;
+  top:50%;
+  right: 1%;
+  margin:0;
+  transform: translate(0%,-50%);
+  line-height:20px;
+}
+.style800{
+  display:block;
+}
+footer .log-text .hp a{
+  position: absolute;
+  top:65%;
+  left:50px;
+  margin:0;
+  transform: translate(18%,0%);
+}
+.main-snpu{
+  box-shadow: none;
+}
+.sec04-grid {
+  height: auto;
+}
+.sec04-list{
+  height: 245px;
+}
+.sec04-list li{
+  height:40px;
+}
+.sec04-wrapper {
+  margin: 20px 0px auto;
+}
+footer .tel {
+  top:30px;
+  left: 45%;
+  transform: translate(-50%,-50%);
+  letter-spacing: 0.5px;
+}
+footer .Reception {
+  top:50px;
+  left: 45%;
+  transform: translate(-50%,-50%);
+  letter-spacing: 0.5px;
+}
