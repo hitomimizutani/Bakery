@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+.main-snpu:first-child img{
+  float:right;
+}
+.main-snpu h4{
+  padding-left:10px;
+}
+.main-snpu p{
+  padding-top:0;
+}
+main .main-snpu img{
+  margin-top: 0;
+}
+tr{
+  height:20px;
+}
+th, td{
+  padding-top:9px 5px 0 0;
+  font-size: 14px;
+}
+.hp .style800 br{
+  display:none;
+}
