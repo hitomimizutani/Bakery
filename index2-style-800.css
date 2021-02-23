@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+ .container{
+   padding:0;
+ }
+ .main-snpu{
+  height:330px;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+.sec03-warpper{
+  margin:0;
+}
+.sec03-warpper .main-snpu{
+  height: 40px;
+}
+.sec03-grid{
+  margin-left: 10px;
+}
+.sec03-grid img{
+  width:23%;
+  margin: 0 30px 15px auto;
+}
+.table{
+  width:97%;
+}
+th{
+  width:180px;
+}
+.sec04-wrapper .main-snpu{
+  height:50px;
+}
